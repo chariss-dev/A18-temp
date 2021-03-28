@@ -1,0 +1,241 @@
+/* Materi Novar */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: viga;
+    background-color: #e3e8e5;
+    display: grid;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    margin-top: 10px;
+    font-size: 33px;
+    color: white;
+}
+
+.header-kiri {
+    float: left;
+}
+
+.header-kanan {
+    float: right;
+    margin-right: -25px;
+}
+
+.header-kanan a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.header-kanan a:hover {
+    background-color: gray;
+}
+
+.atas-wrapper {
+    padding: 90px 0 0 0;
+    width: 100%;
+    height: 595px;
+    background-color: #17bee8;
+}
+
+.kiri {
+    float: left;
+    margin-top: 100px;
+}
+
+.kiri h1 {
+    text-align: center;
+    letter-spacing: 3px;
+    color: white;
+}
+
+.kiri p {
+    color: white;
+    letter-spacing: 1px;
+}
+
+.btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.lihat {
+    background-color: #9acd32;
+    margin-right: 20px;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.fa {
+    margin-right: 10px;
+}
+
+img {
+    float: right;
+    width: 50%;
+}
+
+
+/**/
+
+.info-panel {
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 35px;
+    margin-top: -100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #ffffff;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+
+/*.teks {
+    text-align: center;
+    margin-top: 150px;
+}*/
+
+.benefit {
+    background-color: #fff;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    float: right;
+}
+
+.benefit h1 {
+    text-align: center;
+}
+
+.benefit h3 {
+    font-size: 1.5em;
+    color: red;
+}
+
+.benefit p {
+    font-weight: 150;
+    letter-spacing: 1px;
+    font-size: 0.7;
+}
+
+/* Materi Fitria*/
+
+.team-wrapper {
+ 
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    
+  }
+  
+  .heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+  }
+  
+  .team {
+    float : left;
+    width:18%;
+    background-color: white;
+    margin-right : 20px;
+    margin-bottom: 20px;
+    animation-name: slide;
+    animation-duration: 4s;
+  }
+  
+@-webkit-keyframes slide {
+    0% { opacity: 0; margin-left: -250px; }
+    100% { opacity: 1; margin-left: 0; }
+}
+
+@keyframes slide {
+    0% { opacity: 0; margin-left: -250px; }
+    100% { opacity: 1; margin-left: 0; }
+}
+
+.team-icon {
+    padding-top : 20px;
+     
+    }
+    
+    .round{
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+    }
+    
+    .txt-contents {
+      width: 80%;
+      display: inline-block;
+      margin-top: 15px;
+      font-size: 15px;
+      color: #b3aeb5;
+    }
+    
+    .heading h3 {
+      font-weight: normal;
+    }
+
+    @media all and (max-width: 1000px) {
+   
+        .team {
+          width : 50%;
+          margin-bottom : 50px;
+        }
+        .heading h2{
+          font-size : 20px;
+        }
+        }
+    
+    /* Untuk Smartphone */
+    @media all and (max-width: 670px) {
+        .team {
+            width : 100%;
+        }
+    }
